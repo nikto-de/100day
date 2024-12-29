@@ -3,11 +3,11 @@
 Saya akan mencoba menbuat tangtangan dalam 100 hari membuat berbagai halaman website.
 
 
-## Halaman profil
+1. ## Halaman profil
 ![Demo](doc/ss.png)
 
-## Keranjang belanja
-![Demo](doc/ss2.png)
+2. ## Keranjang belanja
+ ![Demo](doc/ss2.png)
 
-## Navigasi ponsel
+3. ## Navigasi ponsel
 ![Demo](doc/ss3.png)

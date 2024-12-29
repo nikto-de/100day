@@ -1,0 +1,142 @@
+/*border ketika di klik*/
+.bd {
+  border: 3px solid darkslategray;
+}
+/* piluh ukuran */
+.sel {
+  border: 3px solid darkslategray;
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section {
+  /*background: lightgrey;*/
+  display: flex;
+  gap: 10px;
+  width: 600px;
+  height: 400px;
+}
+
+/*section kiri*/
+.container-left {
+  height: 100%;
+  width: 300px;
+  background: #efefef;
+  padding: 1em;
+  border-radius: 10px;
+}
+
+.container-left .all-opts {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  position: absolute;
+}
+
+.container-left .all-opts .opts {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  background: lightgrey;
+  overflow: hidden;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 3px 8px;
+}
+
+.container-left .all-opts .opts img {
+  width: 100%;
+}
+
+.container-left .img-pre {
+  overflow: hidden;
+  height: calc(400px - 2em);
+}
+
+.container-left .img-pre img {
+  width: 100%;
+}
+
+
+
+
+/*section kanan*/
+.container-rigth {
+  /* background: grey; */
+  height: 100%;
+  width: 300px; 
+  padding: 1em;
+}
+
+.container-rigth article h3 {
+  color: #4b8dd7;
+  font-size: 15px;
+  margin-bottom: 1em;
+}
+
+.container-rigth article h1 {
+  margin-bottom: .5em;
+}
+
+.container-rigth article sub {
+  color: darkslategray;
+  font-size: 13px;
+}
+
+.container-rigth article .harga {
+  font-weight: bold;
+  color: darkgreen;
+  font-size: 30px;
+  margin-top: .5em;
+}
+.container-rigth article .harga span {
+  font-size: 15px;
+  color: rgb(83, 83, 83);
+  text-decoration: line-through;
+  margin-left: 1em;
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+
+.container-rigth article ul {
+  display: flex;
+  gap: 1em;
+  margin-top: .5em;
+}
+
+.container-rigth article ul li {
+  list-style: none;
+}
+
+.container-rigth article ul li  button {
+  cursor: pointer;
+  width: 50px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  color: darkslategray;
+  margin-top: 1em;
+}
+
+.container-rigth article > button {
+  cursor: pointer;
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  background: #4b8dd7;
+  color: white;
+  margin-top: 1em;
+}

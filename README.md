@@ -4,5 +4,8 @@ Saya akan mencoba menbuat tangtangan dalam 100 hari membuat berbagai halaman web
 
 
 ## Halaman profil
-![Demo](Halaman-Profile/doc/ss.png) 
+![Demo](doc/ss.png)
+
+## Keranjang belanja
+![Demo](doc/ss2.png)
 
